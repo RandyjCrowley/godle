@@ -3,7 +3,7 @@ package main
 import (
     "net/http"
     "github.com/labstack/echo/v4"
-    "/Users/randycrowley/Volumes/godle/wordle/wordle.go"
+    "godle/wordle"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
     
 
 
-    e.GET("/start",wordle.start)
+    e.GET("/start",wordle.Start)
 
 
 
